@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/ltxindex
+# catalog-date 2009-10-01 20:18:08 +0200
+# catalog-license gpl
+# catalog-version 0.1c
 Name:		texlive-ltxindex
 Version:	0.1c
 Release:	1
@@ -46,6 +52,7 @@ custom indexes. The package is not currently maintained.
 %doc %{_texmfdistdir}/doc/latex/ltxindex/ltxindex.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/ltxindex/ltxindex.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +63,5 @@ custom indexes. The package is not currently maintained.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
