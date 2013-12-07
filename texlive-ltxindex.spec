@@ -6,7 +6,7 @@
 # catalog-version 0.1c
 Name:		texlive-ltxindex
 Version:	0.1c
-Release:	4
+Release:	5
 Summary:	A LaTeX package to typeset indices with GNU's Texindex
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ltxindex
