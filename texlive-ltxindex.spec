@@ -9,7 +9,7 @@ Version:	0.1c
 Release:	12
 Summary:	A LaTeX package to typeset indices with GNU's Texindex
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ltxindex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ltxindex
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ltxindex.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ltxindex.doc.tar.xz
